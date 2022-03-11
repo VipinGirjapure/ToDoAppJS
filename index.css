@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+#headTask{
+    position: absolute;
+    top: 6%;
+    left: 12%;
+    font-size: 51px;
+    font-weight: bolder;
+    color: orangered;
+}
+#headList{
+    position: absolute;
+    top: 6.7%;
+    left: 19.9%;
+    font-size: 48px;
+    font-weight: lighter;
+}
+#name{
+    position: absolute;
+    top: 19%;
+    left: 76%;
+    font-size: 33px;
+    color: orangered;
+    background-color: black;
+    border: solid black;
+    cursor: pointer;
+}
+#addList{
+    position: absolute;
+    top: 18%;
+    left: 80%;
+    font-size: 45px;
+}

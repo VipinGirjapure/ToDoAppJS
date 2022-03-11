@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App JS</title>
+    <link rel="stylesheet" href="index2.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+   <div class="part1">
+    <div class="mainBody">
+
+        <div class="heading">
+          
+          <div id="headTask">Tasks</div>
+          <div id="headList">List</div>
+          <!-- <label for="name"></label> -->
+          <div id="addList">Add Item</div>
+          <a href="./index2.html">
+            <button type="submit" id="name" onclick="addName()">	
+              <i class="fa fa-plus"  aria-hidden="true">
+              </i>
+            </button>
+          </a>
+        </div>
+        
+      </div>
+   </div>
+   <div id="main">
+    <label for="name" id="addTask">Add New List</label>
+    <input type="text" id="addName"  placeholder="                   New List">
+    <button onclick="addTask()" id="click">Add</button>
+<button id="back">
+    <a href="./index.html">Back</a>
+</button>
+   </div>
+  <div id="parent"></div>
+
+    <script src="index2.js"></script>
+</body>
+</html>
